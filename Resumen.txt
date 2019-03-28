@@ -1,0 +1,24 @@
+JSX siemplemente ofrede una forma más sencilla y simple de escribir la funcion React.createElement
+React.createElement('TAG','ATRIBUTOS','CONTENIDO')
+const jsx = <h1>Hola {ACA VAN EXPRESIONES}</h1>
+Al final JSX se compila a traves de React.createElement
+JSX --> Azucar sintética 
+
+//Componentes//
+
+Componentes serian como Átomos, nuestra unidad basica---> Bloques de construcción
+'Componente' vs 'Elemento'  ---> El elemento sale del componente
+
+Identificación de Componentes
+Dos pregunstas guías:
+*Que elementos se repiten
+    -Elementos en una lista
+    -Elementos que comparten un aspecto visual o de funcionalidad
+*Que elementos cumplen una funcion muy específica (Ej. Buscador)
+    -Sirven para encapsular lógica
+    -Permiten juntar muchos comportamientos y aspectos visuales en un solo lugar
+
+'Identificar componentes es una habilidad esencial para poder desarrollar aplicaciones de React'
+
+//Nuestro Primer Componente//
+
