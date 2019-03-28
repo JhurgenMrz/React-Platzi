@@ -22,3 +22,6 @@ Dos pregunstas guías:
 
 //Nuestro Primer Componente//
 
+//Props//
+Pasamos argumentos a nuestra funcion, y estos argumentos se llaman {Props} y lo podemos leer a traves de {this.props}
+Atributos a nuestro componentes
