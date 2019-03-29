@@ -25,3 +25,38 @@ Dos pregunstas guías:
 //Props//
 Pasamos argumentos a nuestra funcion, y estos argumentos se llaman {Props} y lo podemos leer a traves de {this.props}
 Atributos a nuestro componentes
+
+
+//Nuestra Primera Página//
+Una página es un componentes que tiene a su ves otros componentes
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
