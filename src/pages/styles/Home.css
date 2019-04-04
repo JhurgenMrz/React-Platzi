@@ -1,0 +1,65 @@
+.Home {
+  height: 91vh;
+  /* border: 1px solid red; */
+}
+.Badges {
+  height: 100%;
+}
+
+.Home__hero {
+  height: 100%;
+  width: 100%;
+  padding: 2rem 0;
+  background: url("../../images/stars.SVG"), #1b1b25;
+  background-repeat: repeat;
+  margin-bottom: 1rem;
+  padding: 7% 3% 0 5%;
+}
+.Home_astro {
+  height: 398px;
+  width: 60%;
+}
+.Home_conf {
+  /* height: 400px; */
+  width: 100%;
+}
+.Home__hero > Home__container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.Home__container {
+  display: flex;
+}
+.container__conf {
+  color: white;
+  height: 400px;
+  margin: 0;
+  padding: 0;
+  width: 30%;
+  font-family: Arial;
+}
+.container__astro {
+  height: 400px;
+  width: 60%;
+  margin: 0;
+  padding: 0;
+}
+
+
+/* .Badges__container {
+  width: 100%;
+  max-width: 580px;
+  margin: 0 auto;
+  padding: 0 1rem;
+} */
+
+/* .Badges_conf-logo {
+  margin-bottom: 2rem;
+}
+
+.Badges__buttons {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 1rem;
+} */

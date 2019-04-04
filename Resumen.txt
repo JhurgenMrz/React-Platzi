@@ -30,6 +30,25 @@ Atributos a nuestro componentes
 //Nuestra Primera Página//
 Una página es un componentes que tiene a su ves otros componentes
 
+//Class 21 Ciclo de Vida de un Componente
+Cuando React lo renderiza --> 'Entre en enscena
+Cuando su stado cambia o recibe props diferente --> 'Se actualiza'
+Cuando cambiamos de pag y ese componente ya no esta--> 'Se desmonto'
+
+Montaje --> Representa el momento donde se inserta el codigo
+            del Componente en el DOM
+    Cuando se monta React llama a 3 metodos:
+        -constructor
+        -render
+        -ComponentDidMount
+Actualizacion --> Cuando los props o el estado del componente cambia 
+            ocurre la Actualizacion
+        Se llaman 2 metodos:
+        -render
+        -componentDidUpdate    
+Desmontaje --> Cuando el componente sale de la escena, desaparece de la pantalla
+        Se llama a 1 metodo:
+        -componentWillUnmount
 
 
 
