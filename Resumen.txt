@@ -50,6 +50,23 @@ Desmontaje --> Cuando el componente sale de la escena, desaparece de la pantalla
         Se llama a 1 metodo:
         -componentWillUnmount
 
+//Llamada a una API
+    Consta de 3 estados:
+        -Loading--> La peticion se envia y se esta esperando
+        -Cuando regresa la peticion puede regresar de 2 formas:
+            -Error: 
+            -Dato:
+                -Datos Vacios-->Mensaje de Datos vacios
+                -Varios Datos
+
+/*
+    Siempre que hagamos llamado a una API tendremos dos principales funciones:
+    Axios y Fetch. Por lo general es mas conveniente y mas sencillo usar Fetch.
+    Pero hay muchos que se inclinan por Axios ya q hace peticiones basadas en Promesas de ES6.
+    Y ademas tienen las siguientes funcionalidades: hace peticiones y respuestas, transforma la data de la peticion y la respuesta, 
+    permite cancelas las peticiones, entre otras
+*/
+
 
 
 
